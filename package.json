@@ -1,0 +1,40 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open",
+    "cypress:run": "cypress run --browser chrome --headless --spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "cypress": "^13.13.0",
+    "cypress-await": "^1.6.3",
+    "cypress-iframe": "^1.0.1",
+    "cypress-log-to-output": "^1.1.2",
+    "cypress-terminal-report": "^6.0.1",
+    "cypress-xpath": "^2.0.1",
+    "fs": "latest",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "typescript": "^5.5.0-dev.20240311"
+  },
+  "dependencies": {
+    "@antiadmin/anticaptchaofficial": "^1.0.45",
+    "@types/cypress": "^1.1.3",
+    "anti-captcha": "^0.0.3",
+    "cypress-file-upload": "^5.0.8",
+    "dayjs": "^1.11.9",
+    "fs": "^0.0.1-security",
+    "jalaliday": "^2.3.0",
+    "log-output": "^2.0.2",
+    "pnpm": "^8.6.12",
+    "promise": "^8.3.0"
+  }
+}

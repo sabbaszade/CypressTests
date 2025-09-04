@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-08-04T08:48:37.276Z",
+    "end": "2024-08-04T08:50:25.120Z",
+    "duration": 107844,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e029baca-6b47-4d4d-8298-ddce58a6dc21",
+      "title": "",
+      "fullFile": "cypress\\e2e\\products\\tour\\runnerMobileViewB2C.cy.ts",
+      "file": "cypress\\e2e\\products\\tour\\runnerMobileViewB2C.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "eefb5a1c-0952-45da-a337-2e9430c3dd2f",
+          "title": "Tour",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Scenario #1: Sale And Refund With Charge The Account",
+              "fullTitle": "Tour Scenario #1: Sale And Refund With Charge The Account",
+              "timedOut": null,
+              "duration": 101209,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "(0,_functions__WEBPACK_IMPORTED_MODULE_2__.saleType)('mobile', false);",
+              "err": {
+                "message": "CypressError: Timed out after waiting `100000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `100000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.config.ts` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+                "estack": "CypressError: Timed out after waiting `100000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `100000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.config.ts` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:130539:64)\n    at <unknown> (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:131524:16)\n    at tryCatcher (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:1807:23)\n    at <unknown> (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:4186:41)\n    at tryCatcher (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://hydra-front-e2e.k8s.indra.local/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at loadWebsite (webpack://cypress/./cypress/e2e/general/homePage.ts:140:0)\n    at signIn (webpack://cypress/./cypress/e2e/general/homePage.ts:8:0)\n    at saleType (webpack://cypress/./cypress/e2e/products/tour/functions.ts:6:10)\n    at Context.eval (webpack://cypress/./cypress/e2e/products/tour/runnerMobileViewB2C.cy.ts:18:16)",
+                "diff": null
+              },
+              "uuid": "42373d20-183c-4d9d-955c-98d3eb401e84",
+              "parentUUID": "eefb5a1c-0952-45da-a337-2e9430c3dd2f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "42373d20-183c-4d9d-955c-98d3eb401e84"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 101209,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+include:
+  - project: 'DevOPs/Include-ci'
+    file: '/qa-cypress.yml'
+variables:
+    PROJECTNAME: cypress
+    STACKNAME: qa    
+    DOCKERFILE_STAGE: Dockerfile
+ 
+
+
